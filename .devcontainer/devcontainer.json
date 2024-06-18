@@ -1,0 +1,15 @@
+{
+    "name": "Rails Development",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "web",
+    "workspaceFolder": "/app",
+    "settings": { 
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+        "rebornix.ruby",
+        "castwide.solargraph"
+    ],
+    "postCreateCommand": "bundle install",
+    "remoteUser": "root"
+}
